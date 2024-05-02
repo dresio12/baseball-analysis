@@ -1,7 +1,7 @@
 My personal baseball anlaytics research projects that I conduct to build my skill set in my pursuit of a carrer in a baseball front office.
 
 
-Some projects are things I am simply testing out to see what happens (the PCA file is an example of that. The majority of these projects are based on the statistical assessments detailed in the "The Book: PLaying the Percentages in Baseball" by Tom Tango, Mitchel Lichtman, and Andrew Dolphin.
+Some projects are things I am simply testing out to see what happens (the PCA file is an example of that). The majority of these projects are based on the statistical assessments detailed in the "The Book: Playing the Percentages in Baseball" by Tom Tango, Mitchel Lichtman, and Andrew Dolphin.
 Since nearly 20 years have passed since the book's release, there are certain conclusions that I am curious to see if they still hold up. The codes I post in this repository are used to generate the
 dataframes and tables I'll eventually use for data visualization.
 
