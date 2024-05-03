@@ -902,7 +902,7 @@ g1 <- na.omit(g1)
 
 #preliminary conclusions
 #I am unsure what to make of the clusters, as I have yet to find a combination
-#that matches anything similar to what Statcast does with the Markov chain
+#that matches anything similar to what Statcast does with the 
 #pitcher similarities, either by speed/movement nor results.
 
 #20 clusters is probably too small of a number since there are so many
