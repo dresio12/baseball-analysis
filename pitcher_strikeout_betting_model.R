@@ -977,10 +977,6 @@ all_k_fit <-
       data = all_k,
       family = "poisson")
 
-all_k_fit2 <-  
-  glm(sum_k ~ k_rate + temp + stadium + outs + wind_speed, 
-                    data = all_k,
-                    family = "poisson")
 #save outputs to a new column called Exp_K
 all_k <-
   all_k |>
@@ -1074,88 +1070,88 @@ all_k <-
 all_gray <-
   all_k |>
   filter(pitcher_id == "grayj003") |>
-  select(pitcher_id, sum_k, k_rate, exp_k, p_l4_k, p_g4_k) |>
+  select(pitcher_id, game:sky, sum_k, k_rate, exp_k, p_l4_k, p_g4_k) |>
   tail()
 
 quintana <- all_k |>
   filter(pitcher_id == "quinj001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l4_k, p_g4_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l4_k, p_g4_k) |>
   tail()
 
 peralta <- all_k |>
   filter(pitcher_id == "peraf001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l6_k, p_g6_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l6_k, p_g6_k) |>
   tail()
 
 civale <- all_k |>
   filter(pitcher_id == "civaa001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l4_k, p_g4_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l4_k, p_g4_k) |>
   tail()
 
 
 bassitt <- all_k |>
   filter(pitcher_id == "bassc001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l5_k, p_g5_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l5_k, p_g5_k) |>
   tail()
 
 rodon <- all_k |>
   filter(pitcher_id == "rodoc001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l4_k, p_g4_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l4_k, p_g4_k) |>
   tail()
 
 javier <- all_k |>
   filter(pitcher_id == "javic001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l5_k, p_g5_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l5_k, p_g5_k) |>
   tail()
 
 musgrove <- all_k |>
   filter(pitcher_id == "musgj001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l5_k, p_g5_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l5_k, p_g5_k) |>
   tail()
 
 harrison <- all_k |>
   filter(pitcher_id == "harrk001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l4_k, p_g4_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l4_k, p_g4_k) |>
   tail()
 
 kelly <- all_k |>
   filter(pitcher_id == "kellm003") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l6_k, p_g6_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l6_k, p_g6_k) |>
   tail()
 
 quantrill <- all_k |>
   filter(pitcher_id == "quanc001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l2_k, p_g2_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l2_k, p_g2_k) |>
   tail()
 
 pivetta <- all_k |>
   filter(pitcher_id == "piven001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l6_k, p_g6_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l6_k, p_g6_k) |>
   tail()
 
 kirby <- all_k |>
   filter(pitcher_id == "kirbg001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l6_k, p_g6_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l6_k, p_g6_k) |>
   tail()
 
 allen <- all_k |>
   filter(pitcher_id == "allel003") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l5_k, p_g5_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l5_k, p_g5_k) |>
   tail()
 
 stripling <- all_k |>
   filter(pitcher_id == "strir001") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l3_k, p_g3_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l3_k, p_g3_k) |>
   tail()
 
 miller <- all_k |>
   filter(pitcher_id == "millb004") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l5_k, p_g5_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l5_k, p_g5_k) |>
   tail()
 
 thompson <- all_k |>
   filter(pitcher_id == "thomz002") |>
-  select(pitcher_id, game, k_rate, exp_k, p_l4_k, p_g4_k) |>
+  select(pitcher_id, game:sky, k_rate, exp_k, p_l4_k, p_g4_k) |>
   tail()
 
 
