@@ -1,4 +1,4 @@
-My personal baseball anlaytics research projects that I conduct to build my skill set in my pursuit of a career in a baseball front office.
+My personal baseball anlaytics research projects that I conduct to build my skillset in my pursuit of a career in a baseball front office.
 
 
 Some projects are things I am simply testing out to see what happens (the PCA file is an example of that). Other projects are based on the statistical assessments detailed in the "The Book: Playing the Percentages in Baseball" by Tom Tango, Mitchel Lichtman, and Andrew Dolphin.
